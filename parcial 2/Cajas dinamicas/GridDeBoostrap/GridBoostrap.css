@@ -1,0 +1,22 @@
+.col1{
+    background-color: gray;
+}
+.col2{
+    background-color: rgb(35, 35, 75);
+    color:white;
+}
+.col3{
+    background-color: rgb(31, 199, 134);
+}
+.col4{
+    background-color: orangered;
+}
+.col5{
+    background-color: blueviolet;
+}
+.col6{
+    background-color: rgb(43, 226, 58);
+}
+.col7{
+    background-color: rgb(226, 43, 113);
+}

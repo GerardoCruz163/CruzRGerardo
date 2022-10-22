@@ -1,0 +1,16 @@
+</head>
+<body>
+    <button id="miBoton1" onclick="alert('Click en boton')"> Hola mundo 1 </button>
+
+    <button id="miBoton2" onclick="alert('Click en boton')"> Hola mundo 2 </button>
+
+    <button id="miBoton3" onclick="alert('Click en boton')"> Hola mundo 3 </button>
+
+    <script>
+        document.getElementById("miBoton2").onclick=function() {alert("Click en boton 2")}
+
+        document.querySelector('#miBoton3').addEventListener("click",miFuncion2);
+        document.querySelector('#miBoton3').addEventListener("click",miFuncion1);
+
+        function miFuncion1(){alert ("Click en boton 3/Funcion 1");}
+        function miFuncion2(){alert ("Click en boton 3/Funcion 2");}
