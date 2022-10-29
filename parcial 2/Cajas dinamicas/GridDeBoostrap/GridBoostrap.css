@@ -16,6 +16,7 @@
 }
 .col6{
     background-color: rgb(43, 226, 58);
+    background-attachment: fixed;
 }
 .col7{
     background-color: rgb(226, 43, 113);
