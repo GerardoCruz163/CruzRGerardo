@@ -10,13 +10,26 @@
     <body>
         <h1>Jerry</h1>
         <button id="btnPeticion" type="button">Peticion</button>
-        <pre id="apiData"></pre>
+
+        <script>
+            document.getElementById("btnPeticionFetch").addEventListener("click", function(){
+            fetch("https://api.chucknorris.io/jokes/random")
+            .then(respuesta=>respuesta.json())
+            .then(datosJs=>document.getElementById("caja").innerText=datosJs.value);
+            })
+
+        document.getElementById("btnPeticionFetchAsyncAwait").addEventListener("click",async function(){
+            l
+        })
+
+       /* <pre id="apiData"></pre>
         <p id="exp"></p>
         <p id="nombre"></p>
 
         <img width="700" height="700"/>
 
-        <script src="fetch.js"></script>
+        <script src="fetch.js">*/
+        </script>
     
     </body>
 </html>

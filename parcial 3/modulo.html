@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html Long="en">
+    <head>
+        <meta charset="UTF-B">
+        <meta http.equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content ="width=device-width, initial-scale">
+        <title>Document</title>
+    </head>
+<body>
+    <label for="cad">Cadena</label>
+    <input id="cad" type="text">
+    <button id="btn">Procesar</button>
+
+    <script type="module">
+        document.getElementById("btn").addEventListener("click",function(){
+            import("./8nov.js")
+            .then(function(funciones){
+                let valor=document.getElementById("cad").value;
+                let valorM=funciones.mayusculas(valor);
+                document.getElementById("cadMay").value=valorM;
+
+            });
+
+        });
+    </script>
+</body>    
+</html>
